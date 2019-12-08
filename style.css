@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+   box-sizing: border-box;
+   font-family: 'Roboto Slab', serif;
+   color: rgba(251, 251, 251, 0.938)
+}
+
+
+html{
+   background-color: rgba(3, 5, 29, 0.99);
+   margin: 0;
+   padding: 0;
+   background-image: url("Figurer/background1.png");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+}
+
+.html1{
+   background-color: rgba(74, 88, 245, 0.99);
+   margin: 0;
+   padding: 0;
+   background-image: url("Figurer/sky2.png");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+}
+
+.html2{
+   background-color: rgba(192, 60, 27, 0.99);
+   margin: 0;
+   padding: 0;
+   background-image: url("Figurer/mars41.png");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+}
+
+
+
+
+.homepage{
+   margin: 0;
+   padding: 0;
+   background-image: url("Figurer/Mars3.png"), url("Figurer/background1.png");
+   background-repeat: no-repeat;
+   background-position: center center, center top;
+   background-size: cover;
+   
+}
+
+.nav ul {
+   margin: 0;
+}
+.nav li {
+   display: inline;
+}
+.nav a {
+   display: inline-block;
+   padding: .8em;
+   color: white;
+   text-decoration: none;
+}
+.main-nav {
+   text-align: center;
+   font-size: 1.7vw;
+   font-weight: lighter;
+   border-bottom: 5px solid snow
+}
+.main-nav li {
+   padding: 0 5%;
+}
+.Title {
+   text-align: center;
+   margin: 0;
+   font-size: 6em;
+   font-family: 'Roboto Slab';
+}
+.nav a:hover{
+   background-color: orange;
+}
+h1 {
+   left: 0;
+   line-height: 200px;
+   margin-top: -100px;
+   position: absolute;
+   text-align: center;
+   top: 23%;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Play {
+   position: absolute;
+   left: 50%;
+   top: 60%;
+   transform: translate(-50%, -50%);
+   text-decoration: none;
+}
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:150px;
+	height:150px;
+	padding-top: 0px;
+	padding-left: 15px;
+	line-height: 20px;
+	border: 7px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: rgba(0,0,0,0.5);
+	font-size:60px;
+	font-weight:bold;
+   transition: all 0.3s ease;
+}
+.round-button:hover {
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px orange;
+	text-shadow: 0px 0px 10px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+   width: 20%;
+   height: 20%;
+   cursor: pointer;
+   background: green;
+   border: 0.5vw solid rgb(253, 180, 11);
+   border-radius: 50px;
+   outline: none;
+   font-size: 2vw;
+   transition: 0.5s ease-in-out;
+ }
+ svg {
+   position: absolute;
+   left: 0;
+   top: 0;
+   fill: none;
+   stroke: orangered;
+   stroke-dasharray: 150 480;
+   stroke-dashoffset: 150;
+   transition: 1s ease-in-out;
+ }
+ .btn:hover {
+   transition: 1s ease-in-out;
+   background: orange;
+ }
+ .btn:hover svg {
+   stroke-dashoffset: -480;
+ }
+ .btn span {
+   color: white;
+   font-size: 30px;
+   font-weight: 100;
+ }
+
+.answer1{
+   position: absolute;
+   left: 10%;
+   bottom: 5%;
+}
+
+.answer2{
+   position: absolute;
+   left: 40%;
+   bottom: 5%;
+}
+.answer3{
+   position: absolute;
+   left: 70%;
+   bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.scenarioimg{
+   white-space: nowrap;
+   display: block;
+   margin-top: 2%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.scenarioimg1{
+   white-space: nowrap;
+   display: block;
+   margin-top: 2%;
+   left: 10%
+}
+
+.scenarioimg3{
+   white-space: nowrap;
+   display: block;
+   margin-top: 2%;
+   left: 70%;
+}
+
+
+.scenario{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0.4%;
+   border-radius: 50px;
+   width: 70%;
+   font-size: 1.5em;
+   text-align: center;
+   background-color:rgb(0, 156, 0);
+   border: 0.5vw solid rgba(7, 206, 7, 0.746);
+   padding: 1%;
+   font-size: 1.4vw;
+}
+
+
+
+
+
+
+.wrapper{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+ 
+.btn2{
+   display: block;
+   width: 200px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 18px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: #333;
+   border: 2px solid #333;
+   letter-spacing: 2px;
+   text-align: center;
+   position: relative;
+   transition: all .35s;
+ }
+ 
+ btn2 span{
+   position: relative;
+   z-index: 2;
+ }
+ 
+ btn2:after{
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background: #ff003b;
+   transition: all .35s;
+ }
+ 
+ btn2:hover{
+   color: #fff;
+ }
+ 
+ btn2:hover:after{
+   width: 100%;
+ }
+
+
+
+
+ 
+ P.blocktext {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 1.3vw;
+   background-color: rgb(255, 255, 255);
+   padding: 1%;
+   color: rgb(24, 13, 13);
+}
+
+.forklaring{
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 1.3vw;
+   text-align: left;
+   background-color: rgb(255, 255, 255);
+   padding: 5%;
+   color: rgb(29, 21, 21);
+}
+
+
+.datatable tbody td{
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+   color: rgb(29, 21, 21);
+   font-size: 1.3vw;
+}
+.datatable tbody th{
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: rgb(6, 70, 126);
+   text-align: center;
+   color: rgb(29, 21, 21);
+   font-size: 1.4vw;
+}
+
+.responsiveimg{
+   width: 100%;
+   height: auto;
+}
+
+.column {
+   flex: 33.33%;
+   padding: 5px;
+}
+
+.row {
+   display: flex;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
