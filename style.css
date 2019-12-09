@@ -40,7 +40,7 @@ html{
    background-color: rgba(3, 5, 29, 0.99);
    margin: 0;
    padding: 0;
-   background-image: url("Figurer/stars.svg");
+   background-image: url("Figurer/background1.png");
    background-position: right top;
   background-attachment: fixed;
 }
