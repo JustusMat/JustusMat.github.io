@@ -187,6 +187,10 @@
          id="image114"
          x="-373.89404"
          y="-126.03095" />
+      <animateMotion
+         dur="6s"
+         repeatCount="1"
+         path="M 0,30,0,0" />
     </g>
     <image
        y="-232.62425"
@@ -198,7 +202,12 @@
        height="722.48889"
        width="722.48889"
        clip-path="url(#clipPath960)"
-       transform="matrix(0.09954959,0,0,0.09954959,13.268354,190.84066)" />
+       transform="matrix(0.09954959,0,0,0.09954959,13.268354,190.84066)">
+      <animateMotion
+         dur="6s"
+         repeatCount="1"
+         path="M 0,18,0,0" />
+</image>
     <g
        id="g848"
        transform="matrix(0.377158,0,0,0.377158,149.63989,157.29682)">
