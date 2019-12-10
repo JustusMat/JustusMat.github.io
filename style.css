@@ -98,7 +98,9 @@ h1 {
    width: 100%;
 }
 
-
+sup,sub {
+   color: white;
+}
 
 
 
