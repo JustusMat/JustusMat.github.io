@@ -411,7 +411,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="370.82095"
+     inkscape:cx="193.32095"
      inkscape:cy="552.61623"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -429,7 +429,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -557,7 +557,7 @@
          id="tspan3529"
          x="110.4831"
          y="-118.62373"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">12000 km</tspan></text>
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">8000 km</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -571,7 +571,7 @@
          id="tspan3533"
          x="123.07549"
          y="20.013966"
-         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">20000 km</tspan></text>
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">10000 km</tspan></text>
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3552)"
        d="m 106.89167,70.516662 v 7.9375 l 7.67291,0"
