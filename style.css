@@ -358,6 +358,15 @@ sup,sub {
    padding: 5px;
 }
 
+.column2{
+   flex: 12%;
+   margin-left:  40%;   
+}
+.column3{
+   flex: 7%;
+   margin-right: 30%;   
+}
+
 .row {
    display: flex;
 }
